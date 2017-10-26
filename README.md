@@ -15,9 +15,9 @@ A simple and nice e-mail template (for Mautic).
 I undestand that this is not an easy process, but it was the easier one found to allow customization.
 
 ## How it looks
-![Screenshot](https://raw.githubusercontent.com/hmaesta/simplect-email-template/thumbnail.png)
+![Screenshot](https://raw.githubusercontent.com/hmaesta/simplect-email-template/master/thumbnail.png)
 
-[See real size screenshot](https://raw.githubusercontent.com/hmaesta/simplect-email-template/images/simplect-full-preview.png)
+[See real size screenshot](https://raw.githubusercontent.com/hmaesta/simplect-email-template/master/images/simplect-full-preview.png)
 
 ### Credits
 

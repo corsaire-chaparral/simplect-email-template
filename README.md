@@ -13,3 +13,12 @@ A simple and nice e-mail template (for Mautic).
 ... Or you can just use as it is.
 
 I undestand that this is not an easy process, but it was the easier one found to allow customization.
+
+## How it looks
+![Screenshot](https://raw.githubusercontent.com/hmaesta/simplect-email-template/thumbnail.png)
+
+[See real size screenshot](https://raw.githubusercontent.com/hmaesta/simplect-email-template/images/simplect-full-preview.png)
+
+### Credits
+
+It' based on [Cerberus](https://github.com/TedGoas/Cerberus).

@@ -45,12 +45,6 @@
 <body width="100%" bgcolor="<!-- $page-background-color -->" style="margin: 0; mso-line-height-rule: exactly;">
 <center style="width: 100%; background: <!-- $page-background-color -->; text-align: left;">
 
-	<!-- Visually Hidden Preheader Text : BEGIN -->
-	<div style="display: none; font-size: 1px; line-height: 1px; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden; mso-hide: all; font-family: sans-serif;">
-		{resume}
-	</div>
-	<!-- Visually Hidden Preheader Text : END -->
-
 	<div style="max-width: 680px; margin: auto;" class="email-container">
 		<!--[if mso]>
 		<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="680" align="center">
@@ -63,8 +57,13 @@
 			  style="max-width: 680px;">
 			<tr>
 				<td style="padding: 25px 0; text-align: center">
-					<img src="../images/header-logo.png" width="200" height="auto" alt="alt_text" border="0"
-						style="height: auto; background: transparent; font-family: sans-serif; font-size: 15px; line-height: 20px; color: <!-- $primary-color -->;">
+					<div data-slot-container="1">
+						<div data-slot="image">
+							<img src="{{ getAssetUrl('themes/'~template~'/images/header-logo.png', null, null, true) }}"
+								width="200" height="auto" alt="alt_text" border="0"
+								style="height: auto; background: transparent; font-family: sans-serif; font-size: 15px; line-height: 20px; color: <!-- $primary-color -->;">
+						</div>
+					</div>
 				</td>
 			</tr>
 		</table>
@@ -353,9 +352,10 @@
 														<td>
 															<img
 																   src="../images/stefan-stefancik-297983.jpg"
-																width="200" height="" border="0"
-																alt="alt_text" class="center-on-narrow"
-																style="width: 100%; max-width: 200px; height: auto; background: <!-- $image-fallback-background-color -->; font-family: sans-serif; font-size: 15px; line-height: 20px; color: <!-- $image-fallback-alt-text-color -->;">
+																   width="200" height="" border="0"
+																   alt="alt_text"
+																   class="center-on-narrow"
+																   style="width: 100%; max-width: 200px; height: auto; background: <!-- $image-fallback-background-color -->; font-family: sans-serif; font-size: 15px; line-height: 20px; color: <!-- $image-fallback-alt-text-color -->;">
 														</td>
 													</tr>
 													<tr>
@@ -455,7 +455,8 @@
 										  width="100%">
 										<tr>
 											<td dir="ltr" style="padding: 0 10px 10px 10px;">
-												<img src="../images/nigel-tadyanehondo-230499.jpg" width="200" height="auto"
+												<img src="../images/nigel-tadyanehondo-230499.jpg"
+													width="200" height="auto"
 													border="0" alt="alt_text" class="center-on-narrow"
 													style="width: 100%; max-width: 200px; height: auto; background: <!-- $image-fallback-background-color -->; font-family: sans-serif; font-size: 15px; line-height: 20px; color: <!-- $image-fallback-alt-text-color -->;">
 											</td>
@@ -491,7 +492,8 @@
 															<a href="http://www.google.com"
 															   style="background: <!-- $button-background -->; border: <!-- $button-border-size --> solid <!-- $button-background -->; font-family: sans-serif; font-size: <!-- $button-font-size -->; line-height: 1.1; text-align: center; text-decoration: <!-- $button-text-decoration -->; display: block; border-radius: <!-- $button-border-radius -->; font-weight: <!-- $button-font-weight -->; padding: <!-- $button-padding -->"
 															   class="button-a">
-																<span style="color: <!-- $button-color -->" class="button-link">
+																<span style="color: <!-- $button-color -->"
+																	 class="button-link">
 																	Check it out
 																</span>
 															</a>
@@ -548,7 +550,8 @@
 										  width="100%">
 										<tr>
 											<td dir="ltr" style="padding: 0 10px 10px 10px;">
-												<img src="../images/nadine-shaabana-291361.jpg" width="200" height=""
+												<img src="../images/nadine-shaabana-291361.jpg" width="200"
+													height=""
 													border="0" alt="alt_text" class="center-on-narrow"
 													style="width: 100%; max-width: 200px; height: auto; background: <!-- $image-fallback-background-color -->; font-family: sans-serif; font-size: 15px; line-height: 20px; color: <!-- $image-fallback-alt-text-color -->;">
 											</td>
@@ -584,7 +587,8 @@
 															<a href="http://www.google.com"
 															   style="background: <!-- $button-background -->; border: <!-- $button-border-size --> solid <!-- $button-background -->; font-family: sans-serif; font-size: <!-- $button-font-size -->; line-height: 1.1; text-align: center; text-decoration: <!-- $button-text-decoration -->; display: block; border-radius: <!-- $button-border-radius -->; font-weight: <!-- $button-font-weight -->; padding: <!-- $button-padding -->"
 															   class="button-a">
-																<span style="color: <!-- $button-color -->" class="button-link">
+																<span style="color: <!-- $button-color -->"
+																	 class="button-link">
 																	Check it out
 																</span>
 															</a>

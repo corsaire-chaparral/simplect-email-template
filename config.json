@@ -1,7 +1,7 @@
 {
-  "name": "Simplect",
+  "name": "Simplect 0.1",
   "author": "Hugo Maestá",
-  "authorUrl": "https://hugomaesta.com",
+  "authorUrl": "https://github.com/hmaesta/simplect-email-template",
   "features": [
     "email"
   ]

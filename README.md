@@ -8,7 +8,7 @@ A simple and nice e-mail template (for Mautic).
 [See real size screenshot](https://raw.githubusercontent.com/hmaesta/simplect-email-template/master/images/simplect-full-preview.png)
 
 ## How to use
-You can **[download it now](https://raw.githubusercontent.com/hmaesta/simplect-email-template/master/simplect-latest.zip)** to use right away _(recomended)_
+You can **[download it now](https://github.com/hmaesta/simplect-email-template/raw/master/simplect-latest.zip)** to use right away _(recomended)_
 
 Or, if you are a very advanced user, read below.
 
